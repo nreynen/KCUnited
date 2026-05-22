@@ -113,7 +113,8 @@ export const Layout: FunctionComponent<LayoutProps> = ({sx, children, version}) 
               mr: 1,
               height: '60px',
               width: 'auto',
-              cursor: 'pointer'
+              cursor: 'pointer',
+              maxWidth: '60px'
             }}
             variant='square'
             onClick={() => {

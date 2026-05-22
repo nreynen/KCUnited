@@ -96,7 +96,7 @@ export const Dashboard: FunctionComponent<DashboardProps> = () => {
       <Grid item xs={12} sx={{paddingLeft: 2, backgroundColor: theme.palette.opacitated?.sec005}} id="scrollnews">
         <Typography variant='h2'>Nieuws</Typography>
       </Grid>
-      {all_news().reverse().slice(0,3).map((news, i) => <Grid item xs={4} sx={{backgroundColor: theme.palette.opacitated?.sec005}}>
+      {all_news().reverse().slice(0,3).map((news, i) => <Grid item xs={12} md={4} sx={{backgroundColor: theme.palette.opacitated?.sec005}}>
         <News
           img={news.img}
           title={news.title}
@@ -105,8 +105,8 @@ export const Dashboard: FunctionComponent<DashboardProps> = () => {
           readmore={i?.toString()}
         />
       </Grid>)}
-      <Grid item xs={4} sx={{backgroundColor: theme.palette.opacitated?.sec005}}></Grid>
-      <Grid item xs={4} sx={{backgroundColor: theme.palette.opacitated?.sec005}}></Grid>
+      <Grid item xs={12} md={4} sx={{backgroundColor: theme.palette.opacitated?.sec005}}></Grid>
+      <Grid item xs={12} md={4} sx={{backgroundColor: theme.palette.opacitated?.sec005}}></Grid>
 
       <Grid item xs={12} sx={{height: '32px', backgroundColor: theme.palette.opacitated?.sec005}} />
       <Grid item xs={12} sx={{height: '8px', backgroundColor: theme.palette.secondary.main}} />
@@ -119,7 +119,7 @@ export const Dashboard: FunctionComponent<DashboardProps> = () => {
       <Grid item xs={12} sx={{paddingLeft: 2, backgroundColor: theme.palette.opacitated?.main_005}} id="scrollagenda">
         <Typography variant='h2'>Agenda</Typography>
       </Grid>
-      <Grid item xs={3} sx={{backgroundColor: theme.palette.opacitated?.main_005}}>
+      <Grid item xs={12} md={3} sx={{backgroundColor: theme.palette.opacitated?.main_005}}>
         <Agenda
           img="https://placehold.co/40x40"
           name="Appels - KC United"
@@ -127,13 +127,13 @@ export const Dashboard: FunctionComponent<DashboardProps> = () => {
           hour="15h00"
         />
       </Grid>
-      <Grid item xs={3} sx={{backgroundColor: theme.palette.opacitated?.main_005}}>
+      <Grid item xs={12} md={3} sx={{backgroundColor: theme.palette.opacitated?.main_005}}>
 
       </Grid>
-      <Grid item xs={3} sx={{backgroundColor: theme.palette.opacitated?.main_005}}>
+      <Grid item xs={12} md={3} sx={{backgroundColor: theme.palette.opacitated?.main_005}}>
         
       </Grid>
-      <Grid item xs={3} sx={{backgroundColor: theme.palette.opacitated?.main_005}}>
+      <Grid item xs={12} md={3} sx={{backgroundColor: theme.palette.opacitated?.main_005}}>
         
       </Grid>
 
