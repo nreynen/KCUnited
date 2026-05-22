@@ -127,15 +127,9 @@ export const Dashboard: FunctionComponent<DashboardProps> = () => {
           hour="15h00"
         />
       </Grid>
-      <Grid item xs={12} md={3} sx={{backgroundColor: theme.palette.opacitated?.main_005}}>
-
-      </Grid>
-      <Grid item xs={12} md={3} sx={{backgroundColor: theme.palette.opacitated?.main_005}}>
-        
-      </Grid>
-      <Grid item xs={12} md={3} sx={{backgroundColor: theme.palette.opacitated?.main_005}}>
-        
-      </Grid>
+      <Grid item xs={12} md={3} sx={{backgroundColor: theme.palette.opacitated?.main_005}}></Grid>
+      <Grid item xs={12} md={3} sx={{backgroundColor: theme.palette.opacitated?.main_005}}></Grid>
+      <Grid item xs={12} md={3} sx={{backgroundColor: theme.palette.opacitated?.main_005}}></Grid>
 
       <Grid item xs={12} sx={{height: '32px', backgroundColor: theme.palette.opacitated?.main_005}} />
       <Grid item xs={12} sx={{height: '8px', backgroundColor: theme.palette.primary.light}} />
