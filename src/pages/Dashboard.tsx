@@ -114,6 +114,7 @@ export const Dashboard: FunctionComponent<DashboardProps> = () => {
       <Grid item xs={12} sx={{height: '32px', backgroundColor: theme.palette.opacitated?.main_005}} />
 
 
+
       {/* AGENDA */}
       <Grid item xs={12} sx={{paddingLeft: 2, backgroundColor: theme.palette.opacitated?.main_005}} id="scrollagenda">
         <Typography variant='h2'>Agenda</Typography>
